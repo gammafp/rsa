@@ -1,0 +1,19 @@
+/node_modules
+/npm-debug.log
+<<<<<<< HEAD
+=======
+prepos-6.config
+>>>>>>> develop
+
+/test/assets/package-*/
+/test/assets/temp-*/
+/test/reports
+/test/tmp/
+
+/prepos-6.config
+/bower.json
+/component.json
+/bower_components
+/test/sample
+!/test/sample/bower.json
+/npm-shrinkwrap.json

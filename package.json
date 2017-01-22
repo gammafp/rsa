@@ -1,0 +1,21 @@
+{
+  "name": "rsa",
+  "version": "1.0.0",
+  "description": "Programa capaz de desencriptar y encriptar archivos con rsa",
+  "main": "rsa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gammafp"
+  },
+  "keywords": [
+    "rsa",
+    "cryptography",
+    "criptografia",
+    "holo"
+  ],
+  "author": "Francisco Pereira Alvarado",
+  "license": "GPL-3.0"
+}
