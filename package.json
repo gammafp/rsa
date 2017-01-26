@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/gammafp"
+    "url": "http://github.com/gammafp/rsa"
   },
   "keywords": [
     "rsa",
@@ -17,5 +17,8 @@
     "holo"
   ],
   "author": "Francisco Pereira Alvarado",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "node-jsbn": "^0.1.1"
+  }
 }
