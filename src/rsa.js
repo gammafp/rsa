@@ -1,4 +1,4 @@
-var keys = require('./rsaKeys.json');
+// var keys = require('./keys.json');
 var BigInt = require('node-jsbn');
 
 /**
@@ -89,3 +89,5 @@ class RSA {
     
     }
 }
+
+module.exports = RSA;
