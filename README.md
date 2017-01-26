@@ -4,6 +4,7 @@ Una mini libreria para poder desencriptar y encriptar con rsa, teniendo previame
 ### Lo necesario para ejecutar JavaScript
 Para poder ejecutar el archivo **rsa** es necesario tener instalado lo siguiente:
 * [nodeJS](https://nodejs.org/en/)
+* node-jsbn (como dependencia para poder usar bigInteger)
 
 ### Uso
 Una vez descargado el repositorio abrimos una consola/terminal en la raíz del mismo y escribimos **npm install** y se descargaran todas las despendencias necesarias para el uso.
