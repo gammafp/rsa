@@ -110,30 +110,35 @@ class RSA {
 
         return padding;
     }
+    /**
+     * Metodo que sirve para quitar el relleno
+     * @return {array} Devuelve un array sin los padding/relleno.
+     */
     UNPADDING(src) {
         // cl("src puro: ", src)
-        var obj = [];
+        var salida = [];
         var i = 0; 
         var n = this.blockSize;
-    
-        while(i < src.length && src[i] == 0) {
-           i++;
-           
-        }
 
-        if(src.length - i != n - 1 || src[i] > 2) {
-            return null;
+       // Comprueba que el tipo de bite no empiece por cero o por dos
+       if(src[0] == 0 || src[0] > 2) {
+            console.log("Error en el tipo de clave RSA");
+            return [0];
         }
         i++;
+        // se sacan todos los datos despues del cero
         while(src[i] != 0) {
+            // si hay mas datos 
             if (++i >= src.length) {
-                return null;
+                console.log("error: No se encontró byte de separación");
+                return [0];
             }
         }
+        // Volcado del mensaje final
         for(var p = 0; ++i < src.length; p++) {
-            obj.push(src[i]);
+            salida.push(src[i]);
         }
-        return obj;
+        return salida;
     }
 
 }
