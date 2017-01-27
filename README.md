@@ -13,7 +13,7 @@ Para poder usar la clase la podemos instanciar de la siguiente manera, pasandole
 
 ```
 var rsa = new RSA(keyN, keyE, keyD);
-console.log(rsa.sign("12345")); // devolverá el parametro ya firmado y encriptado (el tamaño es de 256 caracteres hexadecimales)
+console.log(rsa.Sign("12345")); // devolverá el parametro ya firmado y encriptado (el tamaño es de 256 caracteres hexadecimales)
 ```
 
 En el repositorio cuenta con todo lo neceario para hacer una prueba (llaves n, e, d y un archivo de prueba), solamente basta con ejecutar el archivo llamado ``test.js`` que se encuentra dentro de la carpeta llamda ``src``.
