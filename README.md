@@ -16,7 +16,7 @@ var rsa = new RSA(keyN, keyE, keyD);
 console.log(rsa.Sign("12345")); // devolverá el parametro ya firmado y encriptado (el tamaño es de 256 caracteres hexadecimales)
 ```
 
-En el repositorio cuenta con todo lo neceario para hacer una prueba (llaves n, e, d y un archivo de prueba), solamente basta con ejecutar el archivo llamado ``test.js`` que se encuentra dentro de la carpeta llamda ``src``.
+En el repositorio cuenta con todo lo necesario para hacer una prueba (llaves n, e, d y un archivo de prueba), solamente basta con ejecutar el archivo llamado ``test.js`` que se encuentra dentro de la carpeta llamda ``src``.
 
-Para ejecutarlo solo hace falta ubicarnos en la carpeta **src** y dentro se encuentra ``test.js``, una vez dentro escribimos ``npm test.js``.
+Para ejecutarlo solo hace falta ubicarnos en la carpeta **src** y dentro se encuentra ``test.js``, una vez dentro escribimos ``node test.js``.
  
